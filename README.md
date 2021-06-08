@@ -13,3 +13,5 @@ que gzip.
 Ce sujet concerne la phase de décompression de l’algorithme dans laquelle un texte compressé pourra
 être décodé si l’alphabet d’origine est connu ainsi que la distribution fréquentielle des caractères qui
 le constituent.
+
+Pour fonctionner les codes, il faut importer tous et insérer l'adress du fichier.bin et fichier_fre.txt puis les exécuter, vous pouvez obtenir le fichier decompressé dans la même racine que les codes.
