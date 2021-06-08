@@ -82,8 +82,8 @@ public class Test {
 		Map<Character,Integer> dic_fre = new LinkedHashMap<Character,Integer>();
 		ArrayList<HuffmanTree> list_tree_seul_node = new ArrayList<HuffmanTree>();
 		HuffmanTree huffTree = new HuffmanTree(null,0, null, null);
-		String filePath_txt = "/Users/yaoxin/eclipse-workspace/DecodageHuffman/donnees/exemple_freq.txt";
-		String filePath_bin = "/Users/yaoxin/eclipse-workspace/DecodageHuffman/donnees/exemple_comp.bin";
+		String filePath_txt = "";
+		String filePath_bin = "";
 		
 		Fichier fichier_fre_txt = new Fichier(filePath_txt);
 		dic_fre = fichier_fre_txt.readFileTxt(filePath_txt);
