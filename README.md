@@ -1,17 +1,10 @@
-Deompression_donnees_par_codageHuffman
 
-Le codage de Huffman, du nom de son concepteur, est une méthode statistique de compression de
-données. Son principe est de remplacer un caractère (ou symbole) par une suite de bits de longueur
-variable. L'idée sous-jacente est de coder ce qui est fréquent sur peu de bits et au contraire ce qui est
-rare sur des séquences de bits plus longues. Le codage de Huffman permet une compression sans
-perte, c’est-à-dire qu’une suite de bits strictement identique à l’originale est restituée par
-décompression. Il nécessite cependant que soit connues (ou estimées) les fréquences d’apparition des
-différents symboles à coder. Il existe ainsi plusieurs variantes de l’algorithme de Huffman (statique,
-semi-adaptatif ou adaptatif) aujourd’hui utilisées dans des algorithmes de compression de fichiers tels
-que gzip.
+Uncompression_data_by_huffman_coding
 
-Ce sujet concerne la phase de décompression de l’algorithme dans laquelle un texte compressé pourra
-être décodé si l’alphabet d’origine est connu ainsi que la distribution fréquentielle des caractères qui
-le constituent.
+Huffman encoding, named after its designer, is a statistical method of compressing data. Its principle is to replace a character (or symbol) by a series of bits of variable length. The underlying idea is to encode what is frequent on few bits and on the contrary what is rare on longer bit sequences. Huffman encoding allows lossless compression, that is, a string of bits exactly the same as the original is rendered by decompression. However, it requires that the frequencies of appearance of the various symbols to be encoded be known (or estimated). There are thus several variations of the Huffman algorithm (static, semi-adaptive or adaptive) now used in file compression algorithms such as gzip.
 
-Pour fonctionner les codes, il faut importer tous et insérer l'adress du fichier.bin et fichier_fre.txt puis les exécuter, vous pouvez obtenir le fichier decompressé dans la même racine que les codes.
+This topic concerns the decompression phase of the algorithm in which a compressed text can be decoded if the original alphabet is known as well as the frequency distribution of the characters that constitute it.
+
+How to use?
+
+To work the codes, you must import all and insert the address of the file.bin and file_fre.txt then execute them, you can obtain the decompressed file in the same root as the codes. 
